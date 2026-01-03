@@ -103,13 +103,13 @@ export default function Header() {
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
-            <PopoverButton className="flex items-center gap-x-1 text-lg font-medium text-gray-900">
+            {/* <PopoverButton className="flex items-center gap-x-1 text-lg font-medium text-gray-900">
               Product
               <ChevronDownIcon
                 aria-hidden="true"
                 className="size-5 flex-none text-gray-400"
               />
-            </PopoverButton>
+            </PopoverButton> */}
 
             <PopoverPanel
               transition
@@ -159,14 +159,20 @@ export default function Header() {
           </Popover>
 
           <Link href="#" className="text-lg font-medium text-gray-900">
-            Features
+            Home
           </Link>
           <Link href="#" className="text-lg font-medium text-gray-900">
-            Marketplace
+            About Us
           </Link>
-          <a href="#" className="text-lg font-medium text-gray-900">
-            Company
-          </a>
+          <Link href="#" className="text-lg font-medium text-gray-900">
+            Services
+          </Link>
+          <Link href="#" className="text-lg font-medium text-gray-900">
+            Facilites
+          </Link>
+          <Link href="#" className="text-lg font-medium text-gray-900">
+           Blogs
+          </Link>
         </PopoverGroup>
         <div className="hidden gap-3 lg:flex lg:flex-1 lg:justify-end">
           <Link
@@ -179,7 +185,7 @@ export default function Header() {
             href="#"
             className="text-sm font-medium text-white bg-[#4375FF] hover:bg-[#1c48c0] hover:text-white py-2 px-6 rounded-sm transition duration-500"
           >
-            Log Out
+           Contact
           </Link>
         </div>
       </nav>
@@ -218,7 +224,7 @@ export default function Header() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-                <Disclosure as="div" className="-mx-3">
+                {/* <Disclosure as="div" className="-mx-3">
                   <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pr-3.5 pl-3 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
                     Product
                     <ChevronDownIcon
@@ -238,24 +244,36 @@ export default function Header() {
                       </DisclosureButton>
                     ))}
                   </DisclosurePanel>
-                </Disclosure>
+                </Disclosure> */}
                 <Link
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
-                  Features
+                  Home
                 </Link>
                 <Link
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
-                  Marketplace
+                  About
                 </Link>
                 <Link
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
-                  Company
+                  Services
+                </Link>
+                <Link
+                  href="#"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                >
+                  Facilites
+                </Link>
+                <Link
+                  href="#"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                >
+                  Blogs
                 </Link>
               </div>
               {/*----------Moblie------Button---------*/}
@@ -270,7 +288,7 @@ export default function Header() {
                   href="#"
                   className="text-sm font-medium text-white bg-[#4375FF] hover:bg-[#1c48c0] hover:text-white py-2 px-6 rounded-sm transition duration-500"
                 >
-                  Log Out
+                  Contact
                 </Link>
               </div>
             </div>
