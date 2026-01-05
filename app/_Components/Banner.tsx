@@ -4,7 +4,7 @@ import { FaHandshake } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <section className=" bg-gradient-to-r from-[#F9FBFC] to-[#FCFDFD]">
+    <section className="bg-gradient-to-r from-[#F9FBFC] to-[#FCFDFD]">
       <div className="container mx-auto px-5">
         <div className="grid md:grid-cols-2 items-center gap-20 py-24">
           <div className="py-10">
@@ -57,7 +57,7 @@ const Banner = () => {
                     placeholder="Enter location, propert"
                     className="p-2 w-full focus:none outline-0"
                   />
-                  <button className="bg-blue-500 text-white rounded-md px-8 py-3 ">
+                  <button className="bg-blue-500 hover:bg-blue-700 text-white rounded-md px-8 py-3 ">
                     Search
                   </button>
                 </div>
