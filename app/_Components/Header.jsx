@@ -70,7 +70,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white shadow">
+    <header className="bg-white shadow-md sticky top-0 left-0 right-0 z-50">
       {/*-------------Desktop----------Menu-------------*/}
       <nav
         aria-label="Global"
@@ -171,7 +171,7 @@ export default function Header() {
             Facilites
           </Link>
           <Link href="#" className="text-lg font-medium text-gray-900">
-           Blogs
+            Blogs
           </Link>
         </PopoverGroup>
         <div className="hidden gap-3 lg:flex lg:flex-1 lg:justify-end">
@@ -185,7 +185,7 @@ export default function Header() {
             href="#"
             className="text-sm font-medium text-white bg-[#4375FF] hover:bg-[#1c48c0] hover:text-white py-2 px-6 rounded-sm transition duration-500"
           >
-           Contact
+            Contact
           </Link>
         </div>
       </nav>

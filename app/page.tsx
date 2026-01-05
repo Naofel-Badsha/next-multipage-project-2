@@ -1,12 +1,9 @@
 import Banner from "./_Components/Banner";
 
-
-
 export default function Home() {
   return (
-    <div className="container mx-auto">
+    <div className="">
       <Banner />
-      
     </div>
   );
 }
