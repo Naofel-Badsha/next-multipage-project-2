@@ -158,19 +158,19 @@ export default function Header() {
             </PopoverPanel>
           </Popover>
 
-          <Link href="#" className="text-lg font-medium text-gray-900">
+          <Link href="/" className="text-lg font-medium text-gray-900">
             Home
           </Link>
-          <Link href="#" className="text-lg font-medium text-gray-900">
+          <Link href="/about" className="text-lg font-medium text-gray-900">
             About Us
           </Link>
-          <Link href="#" className="text-lg font-medium text-gray-900">
+          <Link href="/services" className="text-lg font-medium text-gray-900">
             Services
           </Link>
-          <Link href="#" className="text-lg font-medium text-gray-900">
+          <Link href="/facilites" className="text-lg font-medium text-gray-900">
             Facilites
           </Link>
-          <Link href="#" className="text-lg font-medium text-gray-900">
+          <Link href="/blogs" className="text-lg font-medium text-gray-900">
             Blogs
           </Link>
         </PopoverGroup>
@@ -246,31 +246,31 @@ export default function Header() {
                   </DisclosurePanel>
                 </Disclosure> */}
                 <Link
-                  href="#"
+                  href="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Home
                 </Link>
                 <Link
-                  href="#"
+                  href="/about"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   About
                 </Link>
                 <Link
-                  href="#"
+                  href="/services"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Services
                 </Link>
                 <Link
-                  href="#"
+                  href="/facilites"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Facilites
                 </Link>
                 <Link
-                  href="#"
+                  href="/blogs"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Blogs
