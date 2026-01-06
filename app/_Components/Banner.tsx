@@ -49,6 +49,7 @@ const Banner = () => {
                 <p className="mt-4 text-sm text-[#4a5565]">24/7 Support</p>
               </div>
             </div>
+            {/*--------Search------Bar---------*/}
             <div className="mt-14">
               <div className="mt-4 flex flex-col p-2 bg-white shadow rounded-md">
                 <div className="flex">

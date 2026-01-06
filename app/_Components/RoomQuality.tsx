@@ -2,60 +2,79 @@ import Image from "next/image";
 import React from "react";
 import { FaFacebook, FaInstagram, FaTelegram, FaTwitter } from "react-icons/fa";
 
- const categories = [
+const categories = [
   {
     src: "/assets/category1.jpg",
     alt: "Bathroom Comfortable",
     title: "Bathroom Comfortable",
-    className: "rounded-xl"
+    className: "rounded-xl",
   },
   {
     src: "/assets/category2.jpg",
     alt: "Bathroom Comfortable",
     title: "Bathroom Comfortable",
-    className: "rounded-xl"
+    className: "rounded-xl",
   },
   {
     src: "/assets/category3.jpg",
     alt: "Bathroom Comfortable",
     title: "Bathroom Comfortable",
-    className: "rounded-xl"
+    className: "rounded-xl",
   },
   {
     src: "/assets/category4.jpg",
     alt: "Bathroom Comfortable",
     title: "Bathroom Comfortable",
-    className: "rounded-xl"
+    className: "rounded-xl",
   },
   {
     src: "/assets/category5.jpg",
     alt: "Bathroom Comfortable",
     title: "Bathroom Comfortable",
-    className: "rounded-xl"
+    className: "rounded-xl",
   },
   {
     src: "/assets/category6.jpg",
     alt: "Garden Items",
     title: "Garden Icon",
-    className: "rounded-xl"
-  }
+    className: "rounded-xl",
+  },
 ];
 const RoomQuality = () => {
   return (
     <section className="bg-gradient-to-r from-[#F9FBFC] to-[#FCFDFD]">
       <div className="container mx-auto px-5">
         <div className="grid md:grid-cols-2 items-center gap-20 py-24">
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10">
-             {categories.map((categorie, index) => (
+          <div>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10">
+              {categories.map((categorie, index) => (
                 <div key={index} className="">
-                    <Image src={categorie.src} alt="Category Inages"
+                  <Image
+                    src={categorie.src}
+                    alt="Category Inages"
                     width={200}
                     height={200}
                     className={categorie.className}
-                    />
-                    <h2 className="text-center mt-4">{categorie.title}</h2>
+                  />
+                  <h2 className="text-center mt-4">{categorie.title}</h2>
                 </div>
-             ))}
+              ))}
+            </div>
+            {/*--------Search------Bar---------*/}
+            <div className="mt-14">
+              <div className="mt-4 flex flex-col p-2 bg-white shadow rounded-md">
+                <div className="flex">
+                  <input
+                    type="text"
+                    placeholder="Address, Schools City etc."
+                    className="p-2 w-full focus:none outline-0"
+                  />
+                  <button className="bg-blue-500 hover:bg-blue-700 text-white rounded-md px-8 py-3">
+                    Search
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className="">
