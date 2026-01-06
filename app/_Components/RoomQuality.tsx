@@ -77,32 +77,36 @@ const RoomQuality = () => {
             </div>
           </div>
 
-          <div className="">
+          <div className="relative">
             {/*-------Icon----Pointer---------*/}
             <div className="absolute right-10 top-80">
-              <div className="w-56 space-y-5 bg-gray-100/50 p-3 rounded-lg">
-                <div className="flex gap-3 items-center justify-center p-3 bg-white rounded-lg">
+              <div className="w-40 space-y-5 bg-gray-100/70 p-3 rounded-lg">
+                {/*--------Icon-----Box------1-------*/}
+                <div className="flex gap-3 items-center justify-between p-3 bg-white rounded-lg">
                   <FaFacebook
                     size={35}
                     className="bg-[#5582FF] p-2 rounded-sm text-white"
                   />
                   Facebook
                 </div>
-                <div className="flex gap-3 items-center justify-center p-3 bg-white rounded-lg">
+                {/*--------Icon-----Box------2-------*/}
+                <div className="flex gap-3 items-center justify-between p-3 bg-white rounded-lg">
                   <FaTwitter
                     size={35}
                     className="bg-[#5582FF] p-2 rounded-sm text-white"
                   />
                   Twitter
                 </div>
-                <div className="flex gap-3 items-center justify-center p-3 bg-white rounded-lg">
+                {/*--------Icon-----Box------3-------*/}
+                <div className="flex gap-3 items-center justify-between p-3 bg-white rounded-lg">
                   <FaInstagram
                     size={35}
                     className="bg-[#5582FF] p-2 rounded-sm text-white"
                   />
                   Instagram
                 </div>
-                <div className="flex gap-3 items-center justify-center p-3 bg-white rounded-lg">
+                {/*--------Icon-----Box------4-------*/}
+                <div className="flex gap-3 items-center justify-between p-3 bg-white rounded-lg">
                   <FaTelegram
                     size={35}
                     className="bg-[#5582FF] p-2 rounded-sm text-white"

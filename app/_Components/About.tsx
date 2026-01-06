@@ -8,7 +8,7 @@ const About = () => {
       <div className="grid md:grid-cols-2 items-center gap-20 py-24">
         <div className="relative">
           {/*--------This is for position--------*/}
-          <div className="absolute right-0">
+          <div className="absolute right-24">
             <div className="bg-gray-100/50 w-40 p-3 rounded-t-full">
               <div className="bg-white shadow-md w-34 p-3 rounded-t-full">
                 <div className="w-28 p-5 bg-gradient-to-r from-blue-600 to-[#8ba9f5] rounded-t-full">

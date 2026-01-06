@@ -1,10 +1,11 @@
 import Image from "next/image";
 import React from "react";
+import { FaHandshake, FaMoneyBill } from "react-icons/fa";
 
 const IndentifyMarket = () => {
   return (
     <section className="container mx-auto px-5">
-      <div className="grid md:grid-cols-2 gap-20 py-24">
+      <div className="grid md:grid-cols-2 items-center gap-20 py-24">
         {/*--------This is for Position--------*/}
         <div className="relative">
           <div className="absolute">
@@ -32,17 +33,49 @@ const IndentifyMarket = () => {
 
         {/*------------Others Content------------*/}
         <div className="">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold">
-            Sell for more than the home <span className="text-[#4375FF]">Home</span> Next Door
+          <h1 className="text-5xl md:text-6xl lg:text-6.5xl font-semibold">
+            Sell for more than the home{" "}
+            <span className="text-[#4375FF]">Home</span> Next Door
           </h1>
-          <p className="mt-9 text-lg text-[#4a5565]">
+          <p className="mt-9 text-lg ">
             Discover your dream property with our comprehensive search tools and
             expert guidance. Start your journey to finding the perfect place to
             call home.
           </p>
 
-          <div className="">
-            The Ability to Indentify Market Entry
+          <div className="mt-14">
+            {/*---------Card Box------1-------*/}
+            <div className="flex items-center justify-center gap-12">
+              <div className="bg-[#F3F4F6] text-gray-800 shadow-2xl p-6 rounded-full hover:bg-[#4375FF] hover:text-white transition-all duration-300">
+                <FaMoneyBill className="text-5xl" />
+              </div>
+              <div className="">
+                <h3 className="text-[24px] font-medium">
+                  The Ability to Indentify Market Entry
+                </h3>
+                <p className="text-[18px] mt-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                  obcaecati dolorum aperiam quae assumenda laboriosam quis
+                  debitis quisquam itaque adipisci.
+                </p>
+              </div>
+            </div>
+            {/*---------Card Box------2-------*/}
+            <div className="flex items-center justify-center gap-12 mt-10">
+              <div className="bg-[#F3F4F6] text-gray-800 shadow-2xl p-6 rounded-full hover:bg-[#4375FF] hover:text-white transition-all duration-300">
+                <FaHandshake className="text-5xl" />
+              </div>
+              <div className="">
+                <h3 className="text-[24px] font-medium">
+                  The Ability to Indentify Market Entry
+                </h3>
+                <p className="text-[18px] mt-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                  obcaecati dolorum aperiam quae assumenda laboriosam quis
+                  debitis quisquam itaque adipisci.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
