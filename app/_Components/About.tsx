@@ -52,7 +52,7 @@ const About = () => {
                   Rent a Home
                 </p>
                 <button className="flex items-center justify-center m-auto text-sm mt-5 font-medium text-white bg-blue-500 hover:bg-blue-700 hover:text-white py-2 px-6 rounded-sm transition duration-500 cursor-pointer">
-                  Search Now
+                  Search
                 </button>
                 {/*--------icon--------*/}
                 <div className="bg-gray-50/55 p-1.5 w-fit absolute top-0 right-0 shadow rounded-md">
@@ -77,7 +77,7 @@ const About = () => {
                   Luxry a Home
                 </p>
                 <button className="flex items-center justify-center m-auto text-sm mt-5 font-medium text-white bg-blue-500 hover:bg-blue-700 hover:text-white py-2 px-6 rounded-sm transition duration-500 cursor-pointer">
-                  Search Now
+                  Search
                 </button>
                 {/*--------icon--------*/}
                 <div className="bg-gray-50/55 p-1.5 w-fit absolute top-0 right-0 shadow rounded-md">
@@ -102,7 +102,7 @@ const About = () => {
                   Delux a Home
                 </p>
                 <button className="flex items-center justify-center m-auto text-sm mt-5 font-medium text-white bg-blue-500 hover:bg-blue-700 hover:text-white py-2 px-6 rounded-sm transition duration-500 cursor-pointer">
-                  Search Now
+                  Search
                 </button>
                 {/*--------icon--------*/}
                 <div className="bg-gray-50/55 p-1.5 w-fit absolute top-0 right-0 shadow rounded-md">
