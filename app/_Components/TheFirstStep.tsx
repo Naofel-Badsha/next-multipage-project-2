@@ -45,16 +45,16 @@ const TheFirstStep = () => {
               </div>
               <div className="flex gap-3 items-center justify-between">
                 {/*-----------InnerBox------1---------*/}
-                <div className="bg-[#F3F4F6] p-5 rounded-2xl mt-5 w-full">
+                <div className="bg-[#2B7FFF] p-5 rounded-2xl mt-5 w-full">
                   <div className="text-center">
                     <FaLocationArrow
                       size={35}
-                      className="bg-[#E5E7EB] p-2 rounded-sm text-black m-auto"
+                      className="bg-white text-[#2B7FFF] p-2 rounded-sm text- m-auto"
                     />
-                    <h3 className="text-[18px] font-medium text-black mt-3">
+                    <h3 className="text-[18px] font-medium text-white mt-3">
                       Send Money
                     </h3>
-                    <p className="text-black text-sm">Take Acc to Acc</p>
+                    <p className="text-white text-sm">Take Acc to Acc</p>
                   </div>
                 </div>
                 {/*-----------InnerBox------2---------*/}
@@ -97,16 +97,16 @@ const TheFirstStep = () => {
               </div>
               <div className="flex gap-3 items-center justify-between">
                 {/*-----------InnerBox------1---------*/}
-                <div className="bg-[#F3F4F6] p-5 rounded-2xl mt-5 w-full">
+                <div className="bg-[#2B7FFF] p-5 rounded-2xl mt-5 w-full">
                   <div className="text-center">
                     <FaLocationArrow
                       size={35}
-                      className="bg-[#E5E7EB] p-2 rounded-sm text-black m-auto"
+                      className="bg-white text-[#2B7FFF] p-2 rounded-sm text- m-auto"
                     />
-                    <h3 className="text-[18px] font-medium text-black mt-3">
+                    <h3 className="text-[18px] font-medium text-white mt-3">
                       Send Money
                     </h3>
-                    <p className="text-black text-sm">Take Acc to Acc</p>
+                    <p className="text-white text-sm">Take Acc to Acc</p>
                   </div>
                 </div>
                 {/*-----------InnerBox------2---------*/}
@@ -149,16 +149,16 @@ const TheFirstStep = () => {
               </div>
               <div className="flex gap-3 items-center justify-between">
                 {/*-----------InnerBox------1---------*/}
-                <div className="bg-[#F3F4F6] p-5 rounded-2xl mt-5 w-full">
+                <div className="bg-[#2B7FFF] p-5 rounded-2xl mt-5 w-full">
                   <div className="text-center">
                     <FaLocationArrow
                       size={35}
-                      className="bg-[#E5E7EB] p-2 rounded-sm text-black m-auto"
+                      className="bg-white text-[#2B7FFF] p-2 rounded-sm text- m-auto"
                     />
-                    <h3 className="text-[18px] font-medium text-black mt-3">
+                    <h3 className="text-[18px] font-medium text-white mt-3">
                       Send Money
                     </h3>
-                    <p className="text-black text-sm">Take Acc to Acc</p>
+                    <p className="text-white text-sm">Take Acc to Acc</p>
                   </div>
                 </div>
                 {/*-----------InnerBox------2---------*/}
