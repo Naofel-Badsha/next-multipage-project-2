@@ -1,9 +1,10 @@
 import React from 'react';
+import ServicesBanner from './ServicesBanner';
 
 const ServicesPage = () => {
     return (
         <div>
-            hello  Im am Services Page
+            <ServicesBanner />
         </div>
     );
 };
