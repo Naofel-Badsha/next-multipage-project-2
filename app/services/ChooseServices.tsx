@@ -48,8 +48,8 @@ const ChooseServices = () => {
             src="/assets/services-img.jpg"
             alt="Story image"
             width={600}
-            height={600}
-            className="rounded-xl w-[600px] h-[600px] object-cover"
+            //height={600}
+            //className="rounded-xl w-[600px] h-[600px] object-cover"
           />
         </div>
       </div>
