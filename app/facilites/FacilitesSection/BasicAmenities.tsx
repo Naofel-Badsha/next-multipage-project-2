@@ -44,7 +44,9 @@ const BasicAmenities = () => {
                 className="bg-white p-6 shadow hover:shadow-xl rounded-xl space-y-7 border"
               >
                 <div className="bg-[#ECF1FF] p-4 w-fit flex items-center justify-center rounded-full">
-                  <span className="text-blue-500 text-2xl">{amenitie.icon}</span>
+                  <span className="text-blue-500 text-2xl">
+                    {amenitie.icon}
+                  </span>
                 </div>
 
                 <h1 className="text-xl font-medium mt-6">{amenitie.title}</h1>
