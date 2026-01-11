@@ -1,9 +1,10 @@
 import React from 'react';
+import FacilitesBanner from './FacilitesSection/FacilitesBanner';
 
 const FacilitesPage = () => {
     return (
         <div>
-            Hello  i am FacilitesPage
+           <FacilitesBanner />
         </div>
     );
 };

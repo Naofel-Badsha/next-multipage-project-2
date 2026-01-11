@@ -1,8 +1,9 @@
 import React from 'react';
-import ServicesBanner from './ServicesBanner';
-import ServicesProperty from './ServicesProperty';
-import ChooseServices from './ChooseServices';
-import ClientsReviews from './ClientsReviews';
+import ServicesBanner from './ServicesSection/ServicesBanner';
+import ServicesProperty from './ServicesSection/ServicesProperty';
+import ChooseServices from './ServicesSection/ChooseServices';
+import ClientsReviews from './ServicesSection/ClientsReviews';
+
 
 const ServicesPage = () => {
     return (
