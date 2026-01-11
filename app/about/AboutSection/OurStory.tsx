@@ -6,7 +6,7 @@ const OurStory = () => {
     <section className="container mx-auto px-5">
       <div className="grid md:grid-cols-2 items-center gap-20 py-24">
         <div>
-          <h1 className="text-5xl pt-4 px-2 text-black font-semibold ">
+          <h1 className="text-5xl pt-4 text-black font-semibold text-[18px]">
             Our Story
           </h1>
           <p className="text-[#4a5565] mt-7 font-normal">

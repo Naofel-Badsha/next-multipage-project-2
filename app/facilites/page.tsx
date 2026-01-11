@@ -3,6 +3,7 @@ import FacilitesBanner from './FacilitesSection/FacilitesBanner';
 import BasicAmenities from './FacilitesSection/BasicAmenities';
 import RecreationalFacilities from './FacilitesSection/RecreationalFacilities';
 import HomeComforts from './FacilitesSection/HomeComforts';
+import VirtualTour from './FacilitesSection/VirtualTour';
 
 const FacilitesPage = () => {
     return (
@@ -11,6 +12,7 @@ const FacilitesPage = () => {
            <BasicAmenities />
            <RecreationalFacilities />
            <HomeComforts />
+           <VirtualTour />
         </div>
     );
 };
