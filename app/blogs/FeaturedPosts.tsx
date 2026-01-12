@@ -129,17 +129,17 @@ const FeaturedPosts = () => {
                             <div className='mt-5 flex gap-5'>
                                 {/*----------1----------*/}
                                 <span className='flex items-center gap-1'>
-                                    <FaCalendarAlt className='text-[14px] text-[#6a7282]'/>
+                                    <FaCalendarAlt className='text-[14px] text-[#6a7282]' />
                                     <p className='text-[14px] text-[#6a7282]'>{featuredPost.date}</p>
                                 </span>
                                 {/*----------1----------*/}
                                 <span className='flex items-center gap-1'>
-                                    <CiClock2 className='text-[14px] text-[#6a7282]'/>
+                                    <CiClock2 className='text-[14px] text-[#6a7282]' />
                                     <p className='text-[14px] text-[#6a7282]'>{featuredPost.readTime}</p>
                                 </span>
                                 {/*----------1----------*/}
                                 <span className='flex items-center gap-1'>
-                                    <FaRegUser className='text-[14px] text-[#6a7282]'/>
+                                    <FaRegUser className='text-[14px] text-[#6a7282]' />
                                     <p className='text-[14px] text-[#6a7282]'>{featuredPost.author}</p>
                                 </span>
                             </div>

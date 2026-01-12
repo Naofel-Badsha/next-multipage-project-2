@@ -14,7 +14,7 @@ const PremiumFacilities = () => {
 
         <div className="flex gap-5 items-center justify-center mt-5 ">
           <button className="text-[#2b7fff] py-3 px-5 bg-white hover:bg-[#0f5ac9] hover:text-white rounded-full cursor-pointer">
-           Book Viewing
+            Book Viewing
           </button>
           <button className="py-3 px-5 hover:bg-[#0f5ac9] text-white border-2 hover:border-[#0F5AC9] border-white rounded-full hover:text-white cursor-pointer">
             Contact Us
