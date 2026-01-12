@@ -1,5 +1,8 @@
 import Image from 'next/image';
 import React from 'react'
+import { CiClock2 } from 'react-icons/ci';
+import { FaCalendarAlt, FaRegUser } from 'react-icons/fa';
+import { FaArrowTrendUp } from 'react-icons/fa6';
 
 const FeaturedPosts = () => {
     const featuredPosts = [
@@ -111,15 +114,42 @@ const FeaturedPosts = () => {
             </h1>
             <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10 mt-15'>
                 {featuredPosts.map((featuredPost) => (
-                    <div key={featuredPost.id} className="">
+                    <div key={featuredPost.id} className="bg-[#fffff] border shadow hover:shadow-xl rounded-xl relative">
                         <Image
                             src={featuredPost.image}
                             alt="Category Inages"
                             width={200}
                             height={200}
-                            className="w-full h-[300px] object-cover"
+                            className="w-full h-[200px] object-cover rounded-t-xl"
                         />
-                        <h2 className="text-center mt-4">{featuredPost.title}</h2>
+                        <span className='absolute top-3 left-5 bg-[#4375FF] rounded-full px-4 py-1 text-[14px] text-[#fff]'>{featuredPost.category}</span>
+                        <div className="mt-10 px-7 pb-7">
+                            <h2 className="text-xl font-medium mt-4">{featuredPost.title}</h2>
+                            <p className='mt-5 text-[16px]'>{featuredPost.excerpt}</p>
+                            <div className='mt-5 flex gap-5'>
+                                {/*----------1----------*/}
+                                <span className='flex items-center gap-1'>
+                                    <FaCalendarAlt className='text-[14px] text-[#6a7282]'/>
+                                    <p className='text-[14px] text-[#6a7282]'>{featuredPost.date}</p>
+                                </span>
+                                {/*----------1----------*/}
+                                <span className='flex items-center gap-1'>
+                                    <CiClock2 className='text-[14px] text-[#6a7282]'/>
+                                    <p className='text-[14px] text-[#6a7282]'>{featuredPost.readTime}</p>
+                                </span>
+                                {/*----------1----------*/}
+                                <span className='flex items-center gap-1'>
+                                    <FaRegUser className='text-[14px] text-[#6a7282]'/>
+                                    <p className='text-[14px] text-[#6a7282]'>{featuredPost.author}</p>
+                                </span>
+                            </div>
+
+                            <div className='flex items-center justify-center gap-1 mt-5 cursor-pointer bg-[#EFEFEF] text-[16px] text-[#4375ff] py-3 px-6 rounded-sm hover:bg-[#4375FF] hover:text-[#fff] transition-all duration-500'>
+                                <span>Read More</span>
+                                <FaArrowTrendUp />
+
+                            </div>
+                        </div>
                     </div>
                 ))}
             </div>
