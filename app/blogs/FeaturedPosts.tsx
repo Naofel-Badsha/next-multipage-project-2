@@ -39,72 +39,7 @@ const FeaturedPosts = () => {
             readTime: "6 min read",
             author: "Emily Parker",
         },
-        {
-            id: 4,
-            title: "Things to Check Before Moving Into a New Apartment",
-            excerpt:
-                "A complete checklist to inspect your new apartment and avoid unexpected problems later.",
-            image: "/assets/blog-4.webp",
-            category: "Moving Guide",
-            date: "March 8, 2024",
-            readTime: "4 min read",
-            author: "Daniel Wright",
-        },
-        {
-            id: 5,
-            title: "Short-Term vs Long-Term Rentals: Which Is Right for You?",
-            excerpt:
-                "Compare short-term and long-term rentals to decide which option best suits your lifestyle and budget.",
-            image: "/assets/blog-5.webp",
-            category: "Rental Guide",
-            date: "March 6, 2024",
-            readTime: "5 min read",
-            author: "Sophia Martinez",
-        },
-        {
-            id: 6,
-            title: "How Location Impacts Your Rental Experience",
-            excerpt:
-                "Understand why location matters and how it can affect your daily life, commute, and rental costs.",
-            image: "/assets/blog-6.png",
-            category: "Lifestyle",
-            date: "March 4, 2024",
-            readTime: "6 min read",
-            author: "James Wilson",
-        },
-        {
-            id: 7,
-            title: "Common Rental Scams and How to Avoid Them",
-            excerpt:
-                "Protect yourself from rental scams with these practical tips and warning signs every renter should know.",
-            image: "/assets/blog-7.png",
-            category: "Safety",
-            date: "March 2, 2024",
-            readTime: "5 min read",
-            author: "Olivia Brown",
-        },
-        {
-            id: 8,
-            title: "Furnished vs Unfurnished Rentals: Pros and Cons",
-            excerpt:
-                "Explore the advantages and disadvantages of furnished and unfurnished rentals before making a decision.",
-            image: "/assets/blog-8.png",
-            category: "Rental Comparison",
-            date: "February 28, 2024",
-            readTime: "4 min read",
-            author: "Ethan Lee",
-        },
-        {
-            id: 9,
-            title: "How to Build a Good Relationship With Your Landlord",
-            excerpt:
-                "Learn effective communication tips to maintain a positive and professional relationship with your landlord.",
-            image: "/assets/blog-9.png",
-            category: "Tenant Tips",
-            date: "February 25, 2024",
-            readTime: "5 min read",
-            author: "Isabella Green",
-        },
+
     ];
 
     return (
