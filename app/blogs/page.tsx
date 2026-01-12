@@ -1,9 +1,10 @@
 import React from 'react';
+import BlogBanner from './BlogBanner';
 
 const BlogsPage = () => {
     return (
         <div>
-            Hello  I am  Blog page
+            <BlogBanner />
         </div>
     );
 };
