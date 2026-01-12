@@ -1,12 +1,11 @@
 import Image from "next/image";
-import React from "react";
 import { FaHandshake } from "react-icons/fa";
 
 const Banner = () => {
   return (
     <section className="bg-gradient-to-r from-[#F9FBFC] to-[#FCFDFD]">
       <div className="container mx-auto px-5">
-        <div className="grid md:grid-cols-2 items-center gap-20 py-24">
+        <div className="grid md:grid-cols-1 lg:grid-cols-2 items-center gap-20 py-24">
           <div className="py-10">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold">
               Find Your Perfect <span className="text-[#4375FF]">Home</span>{" "}
@@ -17,7 +16,7 @@ const Banner = () => {
               and expert guidance. Start your journey to finding the perfect
               place to call home.
             </p>
-            <div className="flex gap-10 mt-9">
+            <div className="flex item gap-10 mt-9 ">
               <div className="">
                 <Image
                   src="/assets/icon2.png"
@@ -80,7 +79,7 @@ const Banner = () => {
               </div>
             </div>
             {/*-------Icon----Pointer---------*/}
-            <div className="absolute right-10 top-80">
+            <div className="absolute right-10 top-50 md:top-80 lg:top-80">
               <div className="w-56 space-y-5 bg-gray-100/50 p-3 rounded-lg">
                 <div className="flex gap-3 items-center justify-center p-3 bg-white rounded-lg">
                   <FaHandshake
